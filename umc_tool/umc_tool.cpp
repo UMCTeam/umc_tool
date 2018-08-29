@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	hello();
-	cout << "Hello CMake。" << endl;
+	float percent =	overdrawAnalyze("D:\\a.png");
+	cout << percent << endl;
 	return 0;
 }

@@ -2,6 +2,6 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerEnvironment>$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <LocalDebuggerEnvironment>PATH=$(Deps)\opencv\build\x64\vc15\bin; $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   </PropertyGroup>
 </Project>

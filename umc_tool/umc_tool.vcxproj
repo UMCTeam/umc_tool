@@ -46,8 +46,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)bin</OutDir>
-    <IncludePath>$(SolutionDir)umc_company;$(SolutionDir)deps\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)lib;$(SolutionDir)deps\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)umc_company;$(Deps)\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(Deps)\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
     <LibraryWPath>$(LibraryWPath)</LibraryWPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

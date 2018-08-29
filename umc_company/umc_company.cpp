@@ -35,10 +35,10 @@ UMC_COMPANY_API void cv_match(char* tpl, char* dst) {
 	waitKey(0);
 }
 
-UMC_COMPANY_API float overdrawAnalyze(Mat& src) {
-	CvMat cvmat = src;
+UMC_COMPANY_API float overdrawAnalyze(const char path[]) {
+	CvMat cvmat = imread(path);
 	IplImage* hsv = cvCreateImage(cvGetSize(&cvmat), 8, 3);
-	IplImage* dst_hsv = cvCreateImage(cvGetSize(&cvmat), 8, 3);
+	//IplImage* dst_hsv = cvCreateImage(cvGetSize(&cvmat), 8, 3);
 	cvGetImage(&cvmat, hsv);
 
 	int width = hsv->width;
@@ -61,16 +61,16 @@ UMC_COMPANY_API float overdrawAnalyze(Mat& src) {
 				++red_number;
 			}
 
-			dst_r = dst_r > limit ? 255 : 0;
-			CvScalar dst_color(0, 0, dst_r);
-			cvSet2D(dst_hsv, i, j, dst_color);
+			//dst_r = dst_r > limit ? 255 : 0;
+			//CvScalar dst_color(0, 0, dst_r);
+		//	cvSet2D(dst_hsv, i, j, dst_color);
 		}
 	}
 
-	CvMat* dst = cvCreateMat(dst_hsv->height, dst_hsv->width, CV_8UC3);
-	cvConvert(dst_hsv, dst);
+	//CvMat* dst = cvCreateMat(dst_hsv->height, dst_hsv->width, CV_8UC3);
+	//cvConvert(dst_hsv, dst);
 
-	imwrite("c:\\test.png", Mat(dst->rows, dst->cols, dst->type, dst->data.fl));
+	//imwrite("c:\\test.png", Mat(dst->rows, dst->cols, dst->type, dst->data.fl));
 
 	return red_number / (float)(hsv->width * hsv->height);
 }

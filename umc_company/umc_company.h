@@ -14,5 +14,5 @@
 UMC_COMPANY_API void hello();
 
 UMC_COMPANY_API void cv_match(char* tpl, char* dst);
-UMC_COMPANY_API float overdrawAnalyze(cv::Mat& src);
+UMC_COMPANY_API float overdrawAnalyze(const char path[]);
 
