@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "umc_tool", "umc_tool\umc_tool.vcxproj", "{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "umc_company", "umc_company\umc_company.vcxproj", "{1B86BE11-88D2-44B0-8220-257835CC79DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Debug|x64.ActiveCfg = Debug|x64
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Debug|x64.Build.0 = Debug|x64
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Debug|x86.ActiveCfg = Debug|x64
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Release|x64.ActiveCfg = Release|x64
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Release|x64.Build.0 = Release|x64
+		{FFD036DF-2EBF-4B39-9D65-8353FB10DA1E}.Release|x86.ActiveCfg = Release|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Debug|x64.ActiveCfg = Debug|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Debug|x64.Build.0 = Debug|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Debug|x86.ActiveCfg = Debug|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Release|x64.ActiveCfg = Release|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Release|x64.Build.0 = Release|x64
+		{1B86BE11-88D2-44B0-8220-257835CC79DB}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28A6036D-87B2-484A-AD11-BBDED3D9903F}
+	EndGlobalSection
+EndGlobal

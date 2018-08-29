@@ -1,2 +1,7 @@
 .vs
-deps/*
+deps
+bin
+umc_company/Debug
+umc_company/x64
+umc_tool/Debug
+umc_tool/x64
