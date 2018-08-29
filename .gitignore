@@ -1,6 +1,7 @@
 .vs
 deps
 bin
+lib
 umc_company/Debug
 umc_company/x64
 umc_tool/Debug
