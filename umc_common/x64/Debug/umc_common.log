@@ -1,2 +1,11 @@
-﻿  umc_common.cpp
-  umc_common.vcxproj -> E:\chendaole\umc_tool\x64\Debug\umc_common.dll
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  umc_common.cpp
+f:\chendaole\umc_tool\umc_common\umc_logger.h(41): warning C4251: “UMCLogger::m_file”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“UMCLogger”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\iosfwd(626): note: 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+  umc_logger.cpp
+f:\chendaole\umc_tool\umc_common\umc_logger.h(41): warning C4251: “UMCLogger::m_file”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“UMCLogger”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\iosfwd(626): note: 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+  umc_opencv.cpp
+  正在生成代码...
+    正在创建库 F:\chendaole\umc_tool\lib\umc_commond.lib 和对象 F:\chendaole\umc_tool\lib\umc_commond.exp
+  umc_common.vcxproj -> F:\chendaole\umc_tool\bin\umc_commond.dll

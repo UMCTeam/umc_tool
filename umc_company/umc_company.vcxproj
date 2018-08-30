@@ -50,6 +50,7 @@
     <LibraryWPath>$(LibraryWPath)</LibraryWPath>
     <OutDir>$(SolutionDir)bin</OutDir>
     <TargetName>$(ProjectName)d</TargetName>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

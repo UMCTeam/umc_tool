@@ -1,6 +1,5 @@
 #ifndef UMC_COMPANY_H
 #	define UMC_COMPANY_API __declspec(dllexport)
-
 #else
 #	define UMC_COMPANY_API __declspec(dllimport)
 #endif // !UMC_COMPANY_H
