@@ -18,9 +18,15 @@
     <ClCompile Include="umc_tool.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="umc_adb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="umc_tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="umc_adb.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -151,13 +151,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="umc_common.cpp" />
-    <ClCompile Include="umc_logger.cpp" />
-    <ClCompile Include="umc_opencv.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="umc_common.h" />
-    <ClInclude Include="umc_logger.h" />
-    <ClInclude Include="umc_opencv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

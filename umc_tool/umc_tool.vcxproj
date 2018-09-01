@@ -89,9 +89,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="umc_adb.cpp" />
     <ClCompile Include="umc_tool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="umc_adb.h" />
     <ClInclude Include="umc_tool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

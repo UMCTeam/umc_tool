@@ -7,7 +7,7 @@ UMC_COMPANY_API void hello() {
 	cout << "hello" << endl;
 }
 
-UMC_COMPANY_API void cv_match(char* tpl, char* dst) {
+UMC_COMPANY_API void matchAndroidWidget(char* tpl, char* dst) {
 	Mat m_tpl = imread(tpl);
 	Mat m_dst = imread(dst);
 	Mat im_result;
@@ -35,7 +35,7 @@ UMC_COMPANY_API void cv_match(char* tpl, char* dst) {
 	waitKey(0);
 }
 
-UMC_COMPANY_API float overdrawAnalyze(const char path[]) {
+UMC_COMPANY_API float analyzeAndroidGPU(const char path[]) {
 	Mat mat = imread(path);
 	IplImage hsv = IplImage(mat);
 
