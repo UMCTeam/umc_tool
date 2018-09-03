@@ -4,5 +4,8 @@ bin
 lib
 umc_company/Debug
 umc_company/x64
+umc_common/Debug
+umc_common/x64
 umc_tool/Debug
 umc_tool/x64
+x64

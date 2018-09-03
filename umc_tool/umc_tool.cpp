@@ -1,8 +1,6 @@
 ﻿ // umc_tool.cpp: 定义应用程序的入口点。
 //
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include "umc_tool.h"
 #include "umc_common.h"
 #include "umc_adb.h"

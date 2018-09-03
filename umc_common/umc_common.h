@@ -7,8 +7,6 @@
 #   define UMC_COMMON_API __declspec(dllimport)
 #endif
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
